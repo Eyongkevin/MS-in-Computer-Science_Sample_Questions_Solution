@@ -17,3 +17,20 @@ An array with an odd number of elements is said to be centered if all elements (
 
 ### Solution
 Check file `array_middle.cpp` for solution.
+
+#### run
+`$ g++ array_middle.cpp`
+
+`$ ./a.out`
+#### output
+
+```
+{1, 2, 3, 4, 5}: 0
+{3,2,1,4,5}    : 1
+{3, 2, 1, 4, 1}: 0
+{1, 2, 3, 4}   : 0
+{}             : 0
+{10}           : 1
+-----------------
+Passed
+```
