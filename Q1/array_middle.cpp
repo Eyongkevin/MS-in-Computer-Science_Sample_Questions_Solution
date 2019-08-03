@@ -17,36 +17,13 @@ using namespace std;
 template <int n>
 int checkMiddleStatus(array<int, n>);
 
+// Import test file for testing.
+#include "test.cpp"
 
 int main(int argc, char* argv[])
 {
-    array<int, 5> arr1={1, 2, 3, 4, 5};
-    array<int, 5> arr2={3,2,1,4,5};
-    array<int, 5> arr3={3, 2, 1, 4, 1};
-    array<int, 4> arr4={1, 2, 3, 4};
-    array<int, 0> arr5={};
-    array<int, 1> arr6={10};
-
-
-    int answer;
-    answer = checkMiddleStatus<arr1.size()>(arr1);
-    cout<<"Answer is: "<<answer<<endl;
-
-    answer = checkMiddleStatus<arr2.size()>(arr2);
-    cout<<"Answer is: "<<answer<<endl;
-
-    answer = checkMiddleStatus<arr3.size()>(arr3);
-    cout<<"Answer is: "<<answer<<endl;
-
-    answer = checkMiddleStatus<arr4.size()>(arr4);
-    cout<<"Answer is: "<<answer<<endl;
-
-    answer = checkMiddleStatus<arr5.size()>(arr5);
-    cout<<"Answer is: "<<answer<<endl;
-
-    answer = checkMiddleStatus<arr6.size()>(arr6);
-    cout<<"Answer is: "<<answer<<endl;
-
+    // Test function
+    testCheckMiddleStatus();
 
   
     return 0;
