@@ -11,7 +11,7 @@ Since I am using C++, my function will take an integer array and it's size. This
 way to know the size of an array which was passed to it as argument. This is acceptable if you take this test in C++
 
 ### Hint
-![](example.png)
+![](example.PNG)
 ### Solution
 Check file `quiz2.cpp` for solution.
 
