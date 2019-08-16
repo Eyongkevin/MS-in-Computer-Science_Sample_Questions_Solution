@@ -24,4 +24,13 @@ The function signature is:
 #### Solution:
 Check folder **Q3**
 
+### Question 4:
+Write a function to reverse an integer using numeric operators and without using any arrays or other data structures.
+The signature of the function is:
+
+`int f(int n)`
+
+#### Solution:
+Check folder **Q4**
+
 
