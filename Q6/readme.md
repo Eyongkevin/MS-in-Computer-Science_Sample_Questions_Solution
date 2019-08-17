@@ -7,6 +7,8 @@ The signature of the function is:
 
 `int f(int[] a)`
 
+### Hint:
+Since we are dealing with arrays, we have to pass in the array with its size. This is because arrays are desolved to pointers inside a function and it will be imposible to get it size.
 
 ### Solution
 
